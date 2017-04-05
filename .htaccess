@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|css|js|img|swf|fonts|sound)
+RewriteRule ^(.*)$ /IS2017/index.php/$1 [L]
